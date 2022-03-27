@@ -20,11 +20,11 @@ UniRx Gitub Project
 
 ## Scripts Index
 
-- BarrelRx - 3D Explosive barrel
-- BulletRx - 3D Bullet with impact
-- PersuaderRx - FPS Weapon script
-- PlayerMovementRx - FPS Controller (inspired by DOOM Eternal)
-- PlayerViewRx - FPS Controller mouse view section
-- RecoilRx - Procedural Recoil script
-- SpectatorCameraRx - Simple spectator camera controller
+- **BarrelRx** - 3D Explosive barrel
+- **BulletRx** - 3D Bullet with impact
+- **PersuaderRx** - FPS Weapon script
+- **PlayerMovementRx** - FPS Controller (inspired by DOOM Eternal)
+- **PlayerViewRx** - FPS Controller mouse view section
+- **RecoilRx** - Procedural Recoil script
+- **SpectatorCameraRx** - Simple spectator camera controller
 
