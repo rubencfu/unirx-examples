@@ -32,7 +32,7 @@ I'm a frontend developer caught by the videogame world and its development, this
 ## BarrelRx
 This example shows how an explosive barrel works with UniRx reactive properties
 
-```javascript
+```c#
 public class BarrelRx : MonoBehaviour
 {
     private ReactiveProperty<float> health;
@@ -71,7 +71,7 @@ When the barrel suffers damage, it will emit a value, but we only want one value
 ## BulletRx
 This example shows how a bullet works and how to handle an impact depending which surface or object hits
 
-```javascript
+```c#
 public class BulletRx : MonoBehaviour
 {
     public float damage = 35f;
@@ -142,7 +142,7 @@ This script was called after a [free 3D asset from Sketchfab](https://sketchfab.
 
 It shows a First Person Shooter weapon, in this case, an assault rifle.
 
-```javascript
+```c#
     void Start()
     {
         ammo = maxAmmo;
@@ -171,7 +171,7 @@ As it is a long file, I won't paste it completely, but [you can check the full f
 ## PlayerMovementRx
 This is a FPS controller inspired by DOOM Eternal, although is not finished, it still works and is a great example about high legibility of UniRx
 
-```javascript
+```c#
     void Start() 
     {
         IObservable<Unit> update = this.UpdateAsObservable();
@@ -206,7 +206,7 @@ This is a FPS controller inspired by DOOM Eternal, although is not finished, it 
 ## PlayerViewRx
 Simple script that handles player mouse view 
 
-```javascript
+```c#
 public class PlayerViewRx : MonoBehaviour
 {
     public float sensitivity = 100;
@@ -246,7 +246,7 @@ public class PlayerViewRx : MonoBehaviour
 ## RecoilRx
 Procedural recoil script made with UniRx, but is simpler than it sounds
 
-```javascript
+```c#
 public class RecoilRx : MonoBehaviour
 {
     private Vector3 currentRotation;
@@ -291,7 +291,7 @@ It must be called from the weapon that is shooting, and should be attached to a 
 ## SpectatorCameraRx
 Very simple spectator camera, seriously, it's pretty simple.
 
-```javascript
+```c#
 public class spectatorCameraRX : MonoBehaviour
 {
     [Header("Look Sensitivity")]
