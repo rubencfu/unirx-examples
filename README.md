@@ -100,6 +100,14 @@ public class BulletRx : MonoBehaviour
         collisionEnterObservable
         .Where(IsBarrel)
         .Subscribe(DamageBarrel);
+        
+        //We also could merge both subscriptions into one using:
+        /*
+        collisionEnterObservable
+        .Do(Impact)
+        .Where(IsBarrel)
+        .Subscribe(DamageBarrel);
+        */
 
         Destroy(gameObject, 3f);
     }
